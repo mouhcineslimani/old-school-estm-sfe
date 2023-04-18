@@ -1,0 +1,107 @@
+admin : 
+dashboard : 
+les statistiques 
+*nbre d'etudiant par rapport au niveau scolaire x .
+*
+
+etudiant : 
+*listes :*type(interne ou bien externe) *niveau : afficher la listes des etudiants ( ajouter , supprimer et modifier )  
+
+professeurs : 
+*listes : *prof_de_chq_niveau : afficher la liste des profs du niveau i , ( ajouter , supprimer et modifier ) 
+
+economistes : 
+*listes : afficher , supprimer et modifier 
+
+ 
+
+ listes déroulantes dans une autres listes : 
+  <li class="nav-item">
+                                    <a href="javascript:;" class="nav-link nav-toggle">
+                                        <i class="icon-settings"></i> Item 1
+                                        <span class="arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item">
+                                            <a href="?p=dashboard-2" target="_blank" class="nav-link">
+                                                <i class="icon-user"></i> Arrow Toggle
+                                                <span class="arrow nav-toggle"></span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">
+                                                        <i class="icon-power"></i> Sample Link 1</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">
+                                                        <i class="icon-paper-plane"></i> Sample Link 1</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">
+                                                        <i class="icon-star"></i> Sample Link 1</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-camera"></i> Sample Link 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-link"></i> Sample Link 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-pointer"></i> Sample Link 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+file:///C:/Users/Linus%20Torvaldes/Desktop/mouhcine%20usb/metronic_v4.7.1/theme_rtl/admin_2/index.html (index.html replace it with index.html existed in E:\estm\S4\PFE\oldscholl\index.html)
+mDashboar.html
+mtableEditable.html
+mLogin.html
+mProfile.html
+mblockLogin.html
+
+
+ <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper"> 
+                <div class="page-sidebar navbar-collapse collapse"> 
+                    <ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <li class="nav-item start active open">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-home"></i>
+                                <span class="title">Dashboard</span>
+                                <span class="selected"></span>
+                                <span class="arrow open"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item start active open">
+                                    <a href="index.html" class="nav-link ">
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title">Dashboard 1</span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item start ">
+                                    <a href="dashboard_2.html" class="nav-link ">
+                                        <i class="icon-bulb"></i>
+                                        <span class="title">Dashboard 2</span>
+                                        <span class="badge badge-success">1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item start ">
+                                    <a href="dashboard_3.html" class="nav-link ">
+                                        <i class="icon-graph"></i>
+                                        <span class="title">Dashboard 3</span>
+                                        <span class="badge badge-danger">5</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li> 
+                           
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
